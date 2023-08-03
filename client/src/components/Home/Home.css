@@ -1,0 +1,10 @@
+.contback{
+    background-color: #55ac97;
+}
+
+.cat {
+    position: fixed;
+    overflow: hidden;
+    
+    /* Additional styling properties */
+  }
