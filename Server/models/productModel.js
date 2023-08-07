@@ -47,7 +47,7 @@ const productSchema = new mongoose.Schema(
       default: false,
       required: true,
     },
-    boxAvailable: {
+    projectsupportAvailable: {
       type: Boolean,
       default: false,
     },

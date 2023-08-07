@@ -20,8 +20,8 @@ const additionalThings = [
     name: "accessoriesAvailable",
   },
   {
-    label: "Box Available",
-    name: "boxAvailable",
+    label: "Project Support",
+    name: "projectsupportAvailable",
   },
   {
     label: "Negotiable",
@@ -120,6 +120,7 @@ function ProductsForm({
                   </Form.Item>
                 </Col>
 
+                {/* Category Section */}
                 <Col span={8}>
                   <Form.Item label="Category" name="category" rules={rules}>
                     <Select>
@@ -139,7 +140,7 @@ function ProductsForm({
                     </Select>
                   </Form.Item>
                 </Col>
-
+                {/* Language Section */}
                 <Col span={8}>
                   <Form.Item label="Language" name="condition" rules={rules}>
                     <Select>

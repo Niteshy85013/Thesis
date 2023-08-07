@@ -187,11 +187,11 @@ function ProductInfo() {
               {/* <div className="flex justify-between mt-2">
                 <span>Warranty Available</span>
                 <span>{product.warrantyAvailable ? "Yes" : "No"}</span>
-              </div>
-              <div className="flex justify-between mt-2">
-                <span>Accessories Available</span>
-                <span>{product.accessoriesAvailable ? "Yes" : "No"}</span>
               </div> */}
+              <div className="flex justify-between mt-2">
+                <span>Project Support</span>
+                <span>{product.projectsupportAvailable ? "Yes" : "No"}</span>
+              </div>
               <div className="flex justify-between mt-2">
                 <span>Negotiable</span>
                 <span>{product.negotiable ? "Yes" : "No"}</span>
