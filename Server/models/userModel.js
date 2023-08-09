@@ -19,7 +19,7 @@ const userSchema = new mongoose.Schema(
       type: String,
       required: true,
       trim: true,
-      index: { unique: true },
+
       match: /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/,
     },
     password: {
@@ -27,17 +27,17 @@ const userSchema = new mongoose.Schema(
       required: true,
       minlength: 4,
     },
-    role:{
-        type: String,
-        default: "user"
+    role: {
+      type: String,
+      default: "user",
     },
-    status:{
-        type: String,
-        default: "active"
+    status: {
+      type: String,
+      default: "active",
     },
-    profilePicture:{
-        type:String,
-        default:""
+    profilePicture: {
+      type: String,
+      default: "",
     },
   },
   {
