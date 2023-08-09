@@ -64,7 +64,7 @@ function ProductInfo() {
   return (
     <>
       <NavSec />
-      <div className="container mt-5">
+      <div className="container mt-5 mb-5">
         <div className="row">
           {/* Image Section */}
           <div className="col-md-6">
@@ -218,6 +218,7 @@ function ProductInfo() {
               </div>
             </div>
           </div>
+          <Divider />
         </div>
 
         {showAddNewBid && (

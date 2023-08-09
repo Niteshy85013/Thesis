@@ -125,14 +125,12 @@ function Product() {
                       </span>
                     </div>
                     <div className="card-body">
-                      <h5 className="flex">{product.name}</h5>
-
-                      {/* <div className="clearfix mb-3">
-                        <span className="float-start badge rounded-pill bg-dark text-white ">
-                          {product.condition}
-                        </span>
-                      </div> */}
-                      <h5 className="flex">From ${product.price}</h5>
+                      <p className="flex font-semibold">{product.name}</p>
+                    </div>
+                    <div className="clearfix ms-2 mb-2">
+                      <span className="float-start badge rounded-pill bg-dark text-white ">
+                        From ${product.price}
+                      </span>
                     </div>
                   </div>
                 </div>

@@ -24,8 +24,8 @@ const categories = [
     value: "Game Development",
   },
   {
-    name: "Photography",
-    value: "Photography",
+    name: "Photography & Video Editing",
+    value: "Photography & Video Editing",
   },
 ];
 

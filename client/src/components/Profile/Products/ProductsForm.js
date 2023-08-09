@@ -136,7 +136,9 @@ function ProductsForm({
                         Digital Marketing
                       </Option>
                       <Option value="Game Development">Game Development</Option>
-                      <Option value="Photography">Photography</Option>
+                      <Option value="Photography & Video Editing">
+                        Photography & Video Editing
+                      </Option>
                     </Select>
                   </Form.Item>
                 </Col>
