@@ -14,7 +14,6 @@ const rules = [
 
 function Login() {
   const navigate = useNavigate();
-
   const onFinish = async (values) => {
     try {
       const response = await LoginUser(values);
@@ -30,7 +29,6 @@ function Login() {
       message.error(error.message);
     }
   };
-
   useEffect(() => {
     if (localStorage.getItem("token")) {
       navigate("/");
